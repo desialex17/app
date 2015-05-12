@@ -13,7 +13,13 @@ $(document).ready(function(){
 		dataType:'json',
 		success:function(data){
 			console.log(data);
+			showForm(data);
 		}
 	});
+
+	function showForm(data){
+
+
+	}
 
 }); 
